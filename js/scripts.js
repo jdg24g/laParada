@@ -41,5 +41,13 @@ window.addEventListener("DOMContentLoaded", (event) => {
   });
 
   //Ver dato ingresado en el input y comparar con el json y si ambos coincides crear un div
-  
+  const selectElement = document.querySelector("#inputGroupSelect01");
+  selectElement.addEventListener("change", (event) => {
+    const selectedOption = event.target.value;
+    if (selectedOption == "0"){
+      console.log("No hay nada");
+    }else{
+      console.log(selectedOption);
+    }
+  });
 });
