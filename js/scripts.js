@@ -41,21 +41,35 @@ window.addEventListener("DOMContentLoaded", (event) => {
   });
 
   //Ver dato ingresado en el input y comparar con el json y si ambos coincides crear un div
-  const selectElement = document.querySelector("#inputGroupSelect01");
-  const miImagen = document.getElementById("miImagen");
-  const miTabla = document.getElementById("miTabla")
-  selectElement.addEventListener("change", (event) => {
-    const selectedOption = event.target.value;
-    if (selectedOption != "0") {
-      console.log(selectedOption);
-      //recordar editar fotos para agregar imagenes
-      miTabla.style.display = "table";
-    } else {
-      console.log(selectedOption);
-      //recordar editar fotos para agregar imagenes
-      console.log("No hay nada");
-      miTabla.style.display = "none";
-
-    }
-  });
 });
+const selectElement = document.querySelector("#inputGroupSelect01");
+const miTabla = document.getElementById("tablaHorario");
+selectElement.addEventListener("change", (event) => {
+  const selectedOption = event.target.value;
+  if (selectedOption != "0") {
+    console.log(selectedOption);
+    busqueda(selectedOption);
+    miTabla.style.display = "block";
+  } else {
+    console.log(selectedOption);
+
+    console.log("No hay nada");
+    miTabla.style.display = "none";
+  }
+});
+function busqueda(selectedOption) {
+  fetch("../assets/data/horarios.json")
+    .then((response) => response.json())
+    .then((data) => {
+      hours = data;
+      console.log(hours[selectedOption]);
+      miTabla.innerHTML = `<div class="container-fluid bg-light">${selectedOption}</div>`;
+      for (i of hours[selectedOption]){
+        console.log(i["Destino"],i["HORA"]);
+        miTabla.innerHTML += `<div class="container-fluid bg-light">Destino: ${i["Destino"]} Hora:  ${i["HORA"]}</div>`;}}
+      
+    )
+    .catch((error) => {
+      console.error("Error:", error);
+    });
+}
