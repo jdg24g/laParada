@@ -11207,3 +11207,6 @@ body {
 .medio{
   color: #ecedee;
 }
+#miTabla{
+  display: none;
+}

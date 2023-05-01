@@ -42,12 +42,21 @@ window.addEventListener("DOMContentLoaded", (event) => {
 
   //Ver dato ingresado en el input y comparar con el json y si ambos coincides crear un div
   const selectElement = document.querySelector("#inputGroupSelect01");
+  const miImagen = document.getElementById("miImagen");
+  const miTabla = document.getElementById("miTabla")
   selectElement.addEventListener("change", (event) => {
     const selectedOption = event.target.value;
-    if (selectedOption == "0"){
-      console.log("No hay nada");
-    }else{
+    if (selectedOption != "0") {
       console.log(selectedOption);
+      //recordar editar fotos para agregar imagenes
+      miTabla.style.display = "table";
+      miImagen.src = `../assets/img/bus/${selectedOption}.png`;
+    } else {
+      console.log(selectedOption);
+      //recordar editar fotos para agregar imagenes
+      console.log("No hay nada");
+      miTabla.style.display = "none";
+      miImagen.src = "../assets/img/ipad.png";
     }
   });
 });
