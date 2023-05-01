@@ -1,0 +1,168 @@
+{
+  "Beato Roque González SRL": [
+    { "Destino": "Asunción", "HORA": "0:25" },
+    { "Destino": "Mayor Otaño", "HORA": "8:00" },
+    { "Destino": "Mayor Otaño", "HORA": "11:00" },
+    { "Destino": "Mayor Otaño", "HORA": "13:15" },
+    { "Destino": "Bonanza", "HORA": "17:00" }
+  ],
+  "Ciudad de Pilar SRL": [{ "Destino": "Pilar", "HORA": "16:00" }],
+  "Crucero del Norte SRL": [{ "Destino": "Buenos Aires", "HORA": "13:20" }],
+  "Crucero del Sur SRL": [
+    { "Destino": "Ciudad del Este", "HORA": "3:30" },
+    { "Destino": "Ciudad del Este", "HORA": "5:00" },
+    { "Destino": "Ciudad del Este", "HORA": "9:00" },
+    { "Destino": "Ciudad del Este", "HORA": "12:40" }
+  ],
+  "El Tigre SRL": [
+    { "Destino": "Ciudad del Este", "HORA": "0:00" },
+    { "Destino": "Ciudad del Este", "HORA": "4:20" },
+    { "Destino": "Ciudad del Este", "HORA": "6:15" },
+    { "Destino": "Ciudad del Este", "HORA": "8:30" },
+    { "Destino": "Ciudad del Este", "HORA": "14:10" },
+    { "Destino": "Ciudad del Este", "HORA": "15:30" },
+    { "Destino": "San Cosme y Damián", "HORA": "18:15" }
+  ],
+  "Expreso Paraguay SA": [
+    { "Destino": "Asunción", "HORA": "0:00" },
+    { "Destino": "Ciudad del Este", "HORA": "2:00" },
+    { "Destino": "Ciudad del Este", "HORA": "7:30" },
+    { "Destino": "Asunción", "HORA": "9:30" },
+    { "Destino": "Asunción", "HORA": "12:45" },
+    { "Destino": "Ciudad del Este", "HORA": "13:30" },
+    { "Destino": "Asunción", "HORA": "15:00" },
+    { "Destino": "Asunción", "HORA": "18:30" },
+    { "Destino": "Asunción", "HORA": "18:30" },
+    { "Destino": "Asunción", "HORA": "23:45" }
+  ],
+  "Expreso Rio Parana SA": [{ "Destino": "Buenos Aires", "HORA": "14:30" }],
+  "Flecha De Oro SRL": [
+    { "Destino": "Asunción", "HORA": "6:15" },
+    { "Destino": "Asunción", "HORA": "10:00" },
+    { "Destino": "Asunción", "HORA": "11:00" },
+    { "Destino": "Asunción", "HORA": "17:00" },
+    { "Destino": "Asunción", "HORA": "21:00" }
+  ],
+  "Guaireña Transporte y Turismo SRL": [
+    { "Destino": "Villarrica", "HORA": "4:30" },
+    { "Destino": "Villarrica", "HORA": "15:00" },
+    { "Destino": "Buenos Aires", "HORA": "16:00" },
+    { "Destino": "Buenos Aires", "HORA": "16:15" }
+  ],
+  "Itapúa Poty SRL": [
+    { "Destino": "Ciudad del Este", "HORA": "3:00" },
+    { "Destino": "Ciudad del Este", "HORA": "6:00" },
+    { "Destino": "Ciudad del Este", "HORA": "10:25" }
+  ],
+  "Juan E. Olery SA": [
+    { "Destino": "Ciudad del Este", "HORA": "13:00" },
+    { "Destino": "Ciudad del Este", "HORA": "13:10" }
+  ],
+  "La Frameña  SRL": [
+    { "Destino": "La Paz", "HORA": "6:00" },
+    { "Destino": "Fram", "HORA": "6:00" },
+    { "Destino": "Coronel Bogado", "HORA": "7:40" },
+    { "Destino": "La Paz", "HORA": "8:40" },
+    { "Destino": "Fram", "HORA": "9:45" },
+    { "Destino": "La Paz", "HORA": "10:20" },
+    { "Destino": "Fram", "HORA": "11:00" },
+    { "Destino": "La Paz", "HORA": "11:15" },
+    { "Destino": "Fram", "HORA": "12:50" },
+    { "Destino": "La Paz", "HORA": "13:00" },
+    { "Destino": "Fram", "HORA": "14:55" },
+    { "Destino": "Fram", "HORA": "16:00" },
+    { "Destino": "La Paz", "HORA": "16:15" },
+    { "Destino": "Coronel Bogado", "HORA": "17:50" },
+    { "Destino": "Fram", "HORA": "20:00" },
+    { "Destino": "La Paz", "HORA": "20:00" }
+  ],
+  "La Sancosmeña SRL": [
+    { "Destino": "San Cosme y Damián", "HORA": "8:30" },
+    { "Destino": "San Cosme y Damián", "HORA": "9:15" },
+    { "Destino": "San Cosme y Damián", "HORA": "14:35" }
+  ],
+  "La Yuteña SRL": [
+    { "Destino": "Villarrica", "HORA": "5:30" },
+    { "Destino": "Villarrica", "HORA": "8:30" },
+    { "Destino": "Villarrica", "HORA": "18:00" }
+  ],
+  "Mcal. López SRL": [
+    { "Destino": "San Juan Misiones", "HORA": "15:00" },
+    { "Destino": "San Juan Misiones", "HORA": "16:00" }
+  ],
+  "Nuestra Señora de la  Encarnación SRL": [
+    { "Destino": "Ciudad del Este", "HORA": "1:30" },
+    { "Destino": "Ciudad del Este", "HORA": "8:00" },
+    { "Destino": "Ciudad del Este", "HORA": "9:55" },
+    { "Destino": "Ciudad del Este", "HORA": "11:30" },
+    { "Destino": "Asunción", "HORA": "13:00" },
+    { "Destino": "Ciudad del Este", "HORA": "18:00" }
+  ],
+  "Nuestra Señora De La Asunción CISA": [
+    { "Destino": "Asunción", "HORA": "23:40" }
+  ],
+  "Ñeembucú SRL": [
+    { "Destino": "Pilar", "HORA": "9:30" },
+    { "Destino": "Ciudad del Este", "HORA": "12:10" }
+  ],
+  "Ortega SA": [
+    { "Destino": "Ciudad del Este", "HORA": "9:40" },
+    { "Destino": "San Ignacio Misiones", "HORA": "11:30" },
+    { "Destino": "San Juan Misiones", "HORA": "13:30" }
+  ],
+  "Pastoreo SRL": [
+    { "Destino": "Perlita", "HORA": "8:00" },
+    { "Destino": "Perlita", "HORA": "11:30" },
+    { "Destino": "Pirapo´i", "HORA": "11:45" },
+    { "Destino": "Jesús", "HORA": "18:00" }
+  ],
+  "Río Paraguay SRL": [
+    { "Destino": "María Auxiliadora", "HORA": "4:30" },
+    { "Destino": "Asunción", "HORA": "5:20" },
+    { "Destino": "Asunción", "HORA": "7:00" },
+    { "Destino": "Asunción", "HORA": "8:00" },
+    { "Destino": "Asunción", "HORA": "9:00" },
+    { "Destino": "Asunción", "HORA": "11:30" },
+    { "Destino": "Asunción", "HORA": "12:15" },
+    { "Destino": "Asunción", "HORA": "14:00" },
+    { "Destino": "Asunción", "HORA": "15:30" },
+    { "Destino": "Asunción", "HORA": "19:00" },
+    { "Destino": "María Auxiliadora", "HORA": "19:05" },
+    { "Destino": "Asunción", "HORA": "22:00" },
+    { "Destino": "Asunción", "HORA": "23:30" },
+    { "Destino": "Asunción", "HORA": "23:50" }
+  ],
+  "San Juan SRL": [
+    { "Destino": "Ciudad del Este", "HORA": "0:30" },
+    { "Destino": "Asunción", "HORA": "2:30" },
+    { "Destino": "Mayor Otaño", "HORA": "13:40" }
+  ],
+  "San Juan SRL.": [{ "Destino": "San Juan Misiones", "HORA": "14:15" }],
+  "Stella Marys SRL": [
+    { "Destino": "Puerto Trinidad", "HORA": "12:15" },
+    { "Destino": "Nueva Alborada", "HORA": "16:00" }
+  ],
+  "Tebicuary SRL": [
+    { "Destino": "Yuty", "HORA": "7:00" },
+    { "Destino": "Yuty", "HORA": "8:15" },
+    { "Destino": "San Pedro del Paraná", "HORA": "10:20" },
+    { "Destino": "San Pedro Del Paraná", "HORA": "11:40" },
+    { "Destino": "Yuty", "HORA": "13:00" },
+    { "Destino": "Yuty", "HORA": "14:00" },
+    { "Destino": "San Pedro del Paraná", "HORA": "15:20" },
+    { "Destino": "San Pedro del Paraná", "HORA": "16:45" }
+  ],
+  "Victoria de Boquerón SRL": [
+    { "Destino": "General  Delgado", "HORA": "9:35" },
+    { "Destino": "Santa Rosa", "HORA": "10:30" },
+    { "Destino": "Isla Alta", "HORA": "11:00" },
+    { "Destino": "General Delgado", "HORA": "13:15" },
+    { "Destino": "General Delgado", "HORA": "16:30" },
+    { "Destino": "General  Delgado", "HORA": "17:30" },
+    { "Destino": "Santa Rosa Misiones", "HORA": "18:30" }
+  ],
+  "Yacyretá SA": [
+    { "Destino": "Asunción", "HORA": "7:30" },
+    { "Destino": "Ayolas", "HORA": "12:30" }
+  ]
+}
