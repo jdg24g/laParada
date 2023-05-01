@@ -50,13 +50,13 @@ window.addEventListener("DOMContentLoaded", (event) => {
       console.log(selectedOption);
       //recordar editar fotos para agregar imagenes
       miTabla.style.display = "table";
-      miImagen.src = `../assets/img/bus/${selectedOption}.png`;
+      miImagen.src = `/../assets/img/bus/${selectedOption}.png`;
     } else {
       console.log(selectedOption);
       //recordar editar fotos para agregar imagenes
       console.log("No hay nada");
       miTabla.style.display = "none";
-      miImagen.src = "../assets/img/ipad.png";
+      miImagen.src = "/../assets/img/ipad.png";
     }
   });
 });
