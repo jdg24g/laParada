@@ -11041,15 +11041,16 @@ body {
     border-bottom: 0.25rem solid transparent;
   }
   #mainNav.navbar-shrink .nav-link:hover {
-    color: #64a19d;
+    color: blue;
   }
   #mainNav.navbar-shrink .nav-link:active {
-    color: #467370;
+    color: blue;
   }
   #mainNav.navbar-shrink .nav-link.active {
-    color: #64a19d;
+    /* color: #64a19d; */
+    color: blue;
     outline: none;
-    border-bottom: 0.25rem solid #64a19d;
+    border-bottom: 0.25rem solid blue;
   }
 }
 
