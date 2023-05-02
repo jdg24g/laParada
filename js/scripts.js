@@ -63,7 +63,7 @@ OPCIONES.addEventListener("change", (event) => {
   }
 });
 function busqueda(selectedOption) {
-  fetch("assets/data/horarios.json")
+  fetch("../assets/data/horarios.json")
     .then((response) => response.json())
     .then((data) => {
       hours = data;
