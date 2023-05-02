@@ -58,17 +58,17 @@ selectElement.addEventListener("change", (event) => {
   }
 });
 function busqueda(selectedOption) {
-  fetch("../assets/data/horarios.json")
+  fetch("assets/data/horarios.json")
     .then((response) => response.json())
     .then((data) => {
       hours = data;
       console.log(hours[selectedOption]);
       miTabla.innerHTML = `<div class="container-fluid bg-light">${selectedOption}</div>`;
-      for (i of hours[selectedOption]){
-        console.log(i["Destino"],i["HORA"]);
-        miTabla.innerHTML += `<div class="container-fluid bg-light">Destino: ${i["Destino"]} Hora:  ${i["HORA"]}</div>`;}}
-      
-    )
+      for (i of hours[selectedOption]) {
+        console.log(i["Destino"], i["HORA"]);
+        miTabla.innerHTML += `<div class="container-fluid bg-light">Destino: ${i["Destino"]} Hora:  ${i["HORA"]}</div>`;
+      }
+    })
     .catch((error) => {
       console.log("Error:", error);
     });
