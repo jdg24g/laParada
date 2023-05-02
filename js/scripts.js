@@ -52,6 +52,7 @@ OPCIONES.addEventListener("change", (event) => {
   const selectedOption = event.target.value;
   if (selectedOption != "0") {
     console.log(selectedOption);
+
     busqueda(selectedOption);
     MITABLA.style.display = "table";
   } else {
@@ -67,8 +68,7 @@ function busqueda(selectedOption) {
     .then((data) => {
       hours = data;
       console.log(hours[selectedOption]);
-
-      
+      TBODY.innerHTML = "";  
       for (i of hours[selectedOption]) {
         console.log(i["Destino"], i["HORA"]);
         TBODY.innerHTML += `<tr><td>${i["Destino"]}</td><td>${i["HORA"]}</td></tr>`
