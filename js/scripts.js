@@ -42,19 +42,23 @@ window.addEventListener("DOMContentLoaded", (event) => {
 
   //Ver dato ingresado en el input y comparar con el json y si ambos coincides crear un div
 });
-const selectElement = document.querySelector("#inputGroupSelect01");
-const miTabla = document.getElementById("tablaHorario");
-selectElement.addEventListener("change", (event) => {
+const OPCIONES = document.querySelector("#inputGroupSelect01");
+const tablaHorario = document.getElementById("tablaHorario");
+const MITABLA = document.getElementById("tabla");
+const DESTINO = document.getElementById("destino");
+const SALIDA = document.getElementById("salida");
+const TBODY = document.getElementById("tbody");
+OPCIONES.addEventListener("change", (event) => {
   const selectedOption = event.target.value;
   if (selectedOption != "0") {
     console.log(selectedOption);
     busqueda(selectedOption);
-    miTabla.style.display = "block";
+    MITABLA.style.display = "table";
   } else {
     console.log(selectedOption);
 
     console.log("No hay nada");
-    miTabla.style.display = "none";
+    MITABLA.style.display = "none";
   }
 });
 function busqueda(selectedOption) {
@@ -63,12 +67,13 @@ function busqueda(selectedOption) {
     .then((data) => {
       hours = data;
       console.log(hours[selectedOption]);
-      miTabla.innerHTML = `<div class="container-fluid bg-light">${selectedOption}</div>`;
+
+      
       for (i of hours[selectedOption]) {
         console.log(i["Destino"], i["HORA"]);
-        miTabla.innerHTML += `<div class="container-fluid bg-light">Destino: ${i["Destino"]} Hora:  ${i["HORA"]}</div>`;
-      }
-    })
+        TBODY.innerHTML += `<tr><td>${i["Destino"]}</td><td>${i["HORA"]}</td></tr>`
+      }}
+    )
     .catch((error) => {
       console.log("Error:", error);
     });
