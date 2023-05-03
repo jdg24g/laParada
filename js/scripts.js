@@ -68,12 +68,12 @@ function busqueda(selectedOption) {
     .then((data) => {
       hours = data;
       console.log(hours[selectedOption]);
-      TBODY.innerHTML = "";  
+      TBODY.innerHTML = "";
       for (i of hours[selectedOption]) {
         console.log(i["Destino"], i["HORA"]);
-        TBODY.innerHTML += `<tr><td>${i["Destino"]}</td><td>${i["HORA"]}</td></tr>`
-      }}
-    )
+        TBODY.innerHTML += `<tr><td>${i["Destino"]}</td><td>${i["HORA"]}</td></tr>`;
+      }
+    })
     .catch((error) => {
       console.log("Error:", error);
     });
