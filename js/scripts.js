@@ -6,9 +6,9 @@ window.addEventListener("DOMContentLoaded", (event) => {
       return;
     }
     if (window.scrollY === 0) {
-      colapzar.classList.remove("navbar-shrink");
+      colapzar.classList.remove("encoger");
     } else {
-      colapzar.classList.add("navbar-shrink");
+      colapzar.classList.add("encoger");
     }
   };
 
@@ -18,7 +18,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
   // Reducir el tamaño de la barra de navegación cuando se desplaza la página
   document.addEventListener("scroll", minimiza);
 
-  // Activate Bootstrap scrollspy on the main nav element
+  // scrollspy
   const navegacion = document.body.querySelector("#mainNav");
   if (navegacion) {
     new bootstrap.ScrollSpy(document.body, {
