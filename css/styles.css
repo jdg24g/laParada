@@ -249,11 +249,11 @@ sup {
 }
 
 a {
-  color: var(--bs-link-color);
-  text-decoration: underline;
+  color:rgba(0, 0, 0, 0.5)   ;
+  text-decoration: none;
 }
 a:hover {
-  color: var(--bs-link-hover-color);
+  color: blue;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -11016,7 +11016,7 @@ body {
   }
   #mainNav .navbar-brand {
     padding: 0.5rem 0;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.75);
   }
   #mainNav .nav-link {
     transition: none;
@@ -11169,7 +11169,7 @@ body {
 }
 .contact-section .card {
   border: 0;
-  border-bottom: 0.25rem solid #64a19d;
+  border-bottom: 0.25rem solid blue;
 }
 .contact-section .card h4, .contact-section .card .h4 {
   font-size: 0.8rem;
@@ -11179,7 +11179,7 @@ body {
 }
 .contact-section .card hr {
   opacity: 1;
-  border-color: #64a19d;
+  border-color: blue;
   border-width: 0.25rem;
   width: 3rem;
 }
