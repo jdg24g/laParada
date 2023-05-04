@@ -11208,7 +11208,7 @@ body {
 .medio{
   color: #ecedee;
 }
-#tabla{
+#tabla,#tarjeta{
   display: none;
 }
 body::-webkit-scrollbar {

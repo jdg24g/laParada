@@ -64,8 +64,10 @@
         <div class="col-lg-8">
           <h2 class="text-white mb-4">Selecciona la empresa</h2>
           <h4 class="text-white mb-3">Todos los buses salen desde Encarnación</h4>
-          
+
           <!-- agregar numero de empresa -->
+
+          <div class="container-fluid bg-light" id="Numero"></div>
           <!--AGREGAR FORMULARIO PARA BUSCAR EMPRESAS Y VER HORARIO-->
           <div class="input-group mb-3">
             <label class="input-group-text" for="inputGroupSelect01">Opciones</label>
@@ -98,6 +100,18 @@
               <option value="Victoria de Boquerón SRL">Victoria de Boquerón SRL</option>
               <option value="Yacyretá SA">Yacyretá SA</option>
             </select>
+          </div>
+          <div class="container-fluid mb-2" id="tarjeta">
+            <div class="card h-50">
+              <div class="card-body text-center">
+                <i class="fas fa-mobile-alt svgc mb-2"></i>
+                <h4 class="text-uppercase m-0">Telefono</h4>
+                <hr class="my-4 mx-auto" />
+                <div class="small text-black-50" id="numero">
+
+                </div>
+              </div>
+            </div>
           </div>
           <div class="container bg-light rounded" id="tablaHorario">
             <table class="table" id="tabla">

@@ -48,6 +48,8 @@ const MITABLA = document.getElementById("tabla");
 const DESTINO = document.getElementById("destino");
 const SALIDA = document.getElementById("salida");
 const TBODY = document.getElementById("tbody");
+const NUMERO = document.getElementById("numero");
+const TARJETA = document.getElementById("tarjeta");
 OPCIONES.addEventListener("change", (event) => {
   const selectedOption = event.target.value;
   if (selectedOption != "0") {
@@ -55,11 +57,13 @@ OPCIONES.addEventListener("change", (event) => {
 
     busqueda(selectedOption);
     MITABLA.style.display = "table";
+    TARJETA.style.display = "block";
   } else {
     console.log(selectedOption);
 
     console.log("No hay nada");
     MITABLA.style.display = "none";
+    TARJETA.style.display = "none";
   }
 });
 function busqueda(selectedOption) {
@@ -70,6 +74,11 @@ function busqueda(selectedOption) {
       console.log(hours[selectedOption]);
       TBODY.innerHTML = "";
       for (i of hours[selectedOption]) {
+        if (i["Numero"].length == 8) {
+          NUMERO.innerHTML = `<a href="tel:+595${i["Numero"]}">0${i["Numero"]}</a>`;
+        } else {
+          NUMERO.innerHTML = `<a href="https://api.whatsapp.com/send?phone=595${i["Numero"]}">0${i["Numero"]}</a>`;
+        }
         console.log(i["Destino"], i["HORA"]);
         TBODY.innerHTML += `<tr><td>${i["Destino"]}</td><td>${i["HORA"]}</td></tr>`;
       }
