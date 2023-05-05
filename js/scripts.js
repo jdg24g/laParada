@@ -77,7 +77,7 @@ function busqueda(selectedOption) {
         if (i["Numero"].length == 8) {
           NUMERO.innerHTML = `<a href="tel:+595${i["Numero"]}">0${i["Numero"]}  <i class="fa-solid fa-phone-volume fa-shake"></i></a>`;
         } else {
-          NUMERO.innerHTML = `<a href="https://api.whatsapp.com/send?phone=595${i["Numero"]}">0${i["Numero"]} <i class="fa-brands fa-whatsapp fa-bounce" style="color: #008a49;"></i></a>`;
+          NUMERO.innerHTML = `<a id="ws" href="https://api.whatsapp.com/send?phone=595${i["Numero"]}">0${i["Numero"]} <i class="fa-brands fa-whatsapp fa-bounce" style="color: #008a49;"></i></a>`;
         }
         console.log(i["Destino"], i["HORA"]);
         TBODY.innerHTML += `<tr><td>${i["Destino"]}</td><td>${i["HORA"]}</td></tr>`;

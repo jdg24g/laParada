@@ -11230,3 +11230,9 @@ body::-webkit-scrollbar-thumb {
 .svgc{
   color: blue;
 }
+#ws:hover{
+color: green;
+}
+#ws i:hover{
+  color: red;
+}
